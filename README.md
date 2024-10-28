@@ -30,5 +30,12 @@ A FastAPI-based backend service that allows users to upload PDF documents and as
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/YourRepository.git
-   cd YourRepository
+   git clone https://github.com/JuniorEvidence/Data-extraction-from-PDF-file.git
+   cd Data-extraction-from-PDF-file
+2. Set up a virtual environment:
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+3. Install required Python packages:
+     pip install -r requirements.txt
+4. Start the FastAPI server:
+      uvicorn app.main:app --reload
